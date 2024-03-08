@@ -1,0 +1,101 @@
+@font-face {
+  font-family: text1;
+  src: url(Font/FuturaPTExtraBoldOblique.otf);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: text1;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGluZWFyJTIwZ3JhZGllbnR8ZW58MHx8MHx8fDA%3D);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-section {
+  background: transparent;
+  width: 100%;
+  height: 100vh;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-holder {
+  width: 600px;
+  background: transparent;
+  position: relative;
+}
+
+
+.stopwatch {
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+.stopwatch span{
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 5px;
+  width: max-content;
+}
+
+.stopwatch .stopwatch-btn {
+  background: #fff;
+  margin-top: 30px;
+  margin-left: 5px;
+  border: none;
+  padding: 5px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 150px;
+  transition: background 1s;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Icon{ 
+  width:  40px;
+}
+.StopReset{
+display: flex;
+}
+.stopwatch .stopwatch-btn-red{
+  border: 2px solid #C85454;
+  color: #C85454;
+}
+.stopwatch .stopwatch-btn-yel{
+  border: 2px solid #FFC900;
+  color: #FFC900;
+}
+
+.stopwatch .stopwatch-btn-gre{
+  border: 2px solid #00ABA9;
+  color: #00ABA9;
+}
+.stopwatch .stopwatch-btn-red:hover {
+  background: #C85454;
+  border: 2px solid #C85454;
+  color: #fff;
+}
+.stopwatch .stopwatch-btn-yel:hover {
+  background: #FFC900;
+  border: 2px solid #FFC900;
+  color: #fff;
+}
+.stopwatch .stopwatch-btn-gre:hover {
+  background: #00ABA9;
+  border: 2px solid #00ABA9;
+  color: #fff;
+}
